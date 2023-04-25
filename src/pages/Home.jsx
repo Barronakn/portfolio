@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import adept from "/dist/assets/Capture d’écran du 2023-04-07 10-00-39.png";
 
 const Home = () => {
   return (
@@ -8,19 +9,13 @@ const Home = () => {
       <div className="projet">
         <div className="p">
           <div>
-            <img
-              src="/dist/assets/Capture d’écran du 2023-04-07 08-34-47.png"
-              alt="adept"
-            />
+            <img src={adept} alt="adept" />
             <NavLink target="_blank" to="https://barronakn.github.io/Adept/">
               Adept
             </NavLink>
           </div>
           <div>
-            <img
-              src="/dist/assets/Capture d’écran du 2023-04-07 10-00-39.png"
-              alt="aknmode"
-            />
+            <img src="" alt="aknmode" />
             <NavLink target="_blank" to="https://barronakn.github.io/aknmode/">
               Akn mode
             </NavLink>
