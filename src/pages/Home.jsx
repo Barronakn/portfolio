@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import adept from "/dist/assets/Capture d’écran du 2023-04-07 10-00-39.png";
+import adept from "/src/assets/Capture d’écran du 2023-04-07 10-00-39.png";
 
 const Home = () => {
   return (
