@@ -9,17 +9,19 @@ const Home = () => {
         <div className="p">
           <div>
             <img
-              src="/src/assets/Capture d’écran du 2023-04-07 08-34-47.png"
+              src="/dist/assets/Capture d’écran du 2023-04-07 08-34-47.png"
               alt="adept"
             />
-            <NavLink to="https://barronakn.github.io/Adept/">Adept</NavLink>
+            <NavLink target="_blank" to="https://barronakn.github.io/Adept/">
+              Adept
+            </NavLink>
           </div>
           <div>
             <img
-              src="/src/assets/Capture d’écran du 2023-04-07 10-00-39.png"
+              src="/dist/assets/Capture d’écran du 2023-04-07 10-00-39.png"
               alt="aknmode"
             />
-            <NavLink to="https://barronakn.github.io/aknmode/">
+            <NavLink target="_blank" to="https://barronakn.github.io/aknmode/">
               Akn mode
             </NavLink>
           </div>
@@ -27,19 +29,25 @@ const Home = () => {
         <div className="p">
           <div>
             <img
-              src="/src/assets/Capture d’écran du 2023-04-07 10-11-54.png"
+              src="/dist/assets/Capture d’écran du 2023-04-07 10-11-54.png"
               alt="boutique"
             />
-            <NavLink to="https://barronakn.github.io/boutiquemode/">
+            <NavLink
+              target="_blank"
+              to="https://barronakn.github.io/boutiquemode/"
+            >
               Boutique
             </NavLink>
           </div>
           <div>
             <img
-              src="/src/assets/Capture d’écran du 2023-04-07 10-14-15.png"
+              src="/dist/assets/Capture d’écran du 2023-04-07 10-14-15.png"
               alt="skillhub"
             />
-            <NavLink to="https://barronakn.github.io/Competence-Center/">
+            <NavLink
+              target="_blank"
+              to="https://barronakn.github.io/Competence-Center/"
+            >
               Skillhub
             </NavLink>
           </div>
@@ -47,17 +55,21 @@ const Home = () => {
         <div className="p">
           <div>
             <img
-              src="/src/assets/Capture d’écran du 2023-04-07 10-37-46.png"
+              src="/dist/assets/Capture d’écran du 2023-04-07 10-37-46.png"
               alt="sigma"
             />
-            <NavLink to="https://barronakn.github.io/Sigma/">Sigma</NavLink>
+            <NavLink target="_blank" to="https://barronakn.github.io/Sigma/">
+              Sigma
+            </NavLink>
           </div>
           <div>
             <img
-              src="/src/assets/Capture d’écran du 2023-04-07 11-29-42.png"
+              src="/dist/assets/Capture d’écran du 2023-04-07 11-29-42.png"
               alt="fylla"
             />
-            <NavLink to="https://barronakn.github.io/Fylla/">Fylla</NavLink>
+            <NavLink target="_blank" to="https://barronakn.github.io/Fylla/">
+              Fylla
+            </NavLink>
           </div>
         </div>
       </div>
