@@ -1,7 +1,10 @@
-@media screen and (max-width: 915px) {
-  .container {
-    width: 80%;
+@media screen and (max-width: 1024px) {
+  .container .p {
+    flex-direction: column;
   }
+}
+
+@media screen and (max-width: 915px) {
   .container .name {
     line-height: 70px;
   }

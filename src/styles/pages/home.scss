@@ -19,6 +19,11 @@
 .container img {
   width: 400px;
   object-fit: contain;
+  margin-bottom: -60px;
+}
+
+.container img:hover {
+  box-shadow: -5px 10px 10px #465684;
 }
 
 .container .p {
@@ -27,7 +32,16 @@
   margin-top: 50px;
 }
 
+.container .p div {
+  display: flex;
+  flex-direction: column;
+}
+
 .container a {
   color: white;
   font-weight: bold;
+}
+
+.container a:hover {
+  text-decoration: underline;
 }

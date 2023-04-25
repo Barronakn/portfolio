@@ -10,17 +10,21 @@ const Home = () => {
   return (
     <div className="container">
       <h1 className="name">Jean-Barron ALOKPON.</h1>
-      <p className="desc">Voici quelques uns de mes réalisations.</p>
+      <p className="desc">Voici quelques unes de mes réalisations.</p>
       <div className="projet">
         <div className="p">
           <div>
-            <img src={adept} alt="adept" />
+            <NavLink target="_blank" to="https://barronakn.github.io/Adept/">
+              <img src={adept} alt="adept" />
+            </NavLink>
             <NavLink target="_blank" to="https://barronakn.github.io/Adept/">
               Adept
             </NavLink>
           </div>
           <div>
-            <img src={aknmode} alt="aknmode" />
+            <NavLink target="_blank" to="https://barronakn.github.io/aknmode/">
+              <img src={aknmode} alt="aknmode" />
+            </NavLink>
             <NavLink target="_blank" to="https://barronakn.github.io/aknmode/">
               Akn mode
             </NavLink>
@@ -28,7 +32,12 @@ const Home = () => {
         </div>
         <div className="p">
           <div>
-            <img src={boutique} alt="boutique" />
+            <NavLink
+              target="_blank"
+              to="https://barronakn.github.io/boutiquemode/"
+            >
+              <img src={boutique} alt="boutique" />
+            </NavLink>
             <NavLink
               target="_blank"
               to="https://barronakn.github.io/boutiquemode/"
@@ -37,7 +46,12 @@ const Home = () => {
             </NavLink>
           </div>
           <div>
-            <img src={skillhub} alt="skillhub" />
+            <NavLink
+              target="_blank"
+              to="https://barronakn.github.io/Competence-Center/"
+            >
+              <img src={skillhub} alt="skillhub" />
+            </NavLink>
             <NavLink
               target="_blank"
               to="https://barronakn.github.io/Competence-Center/"
@@ -48,13 +62,17 @@ const Home = () => {
         </div>
         <div className="p">
           <div>
-            <img src={sigma} alt="sigma" />
+            <NavLink target="_blank" to="https://barronakn.github.io/Sigma/">
+              <img src={sigma} alt="sigma" />
+            </NavLink>
             <NavLink target="_blank" to="https://barronakn.github.io/Sigma/">
               Sigma
             </NavLink>
           </div>
           <div>
-            <img src={fylla} alt="fylla" />
+            <NavLink target="_blank" to="https://barronakn.github.io/Fylla/">
+              <img src={fylla} alt="fylla" />
+            </NavLink>
             <NavLink target="_blank" to="https://barronakn.github.io/Fylla/">
               Fylla
             </NavLink>
