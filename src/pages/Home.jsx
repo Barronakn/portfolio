@@ -1,5 +1,10 @@
 import { NavLink } from "react-router-dom";
-import adept from "/src/assets/Capture d’écran du 2023-04-07 10-00-39.png";
+import adept from "/src/assets/Capture d’écran du 2023-04-07 08-34-47.png";
+import aknmode from "/src/assets/Capture d’écran du 2023-04-07 10-00-39.png";
+import boutique from "/src/assets/Capture d’écran du 2023-04-07 10-11-54.png";
+import skillhub from "/src/assets/Capture d’écran du 2023-04-07 10-14-15.png";
+import sigma from "/src/assets/Capture d’écran du 2023-04-07 10-37-46.png";
+import fylla from "/src/assets/Capture d’écran du 2023-04-07 11-29-42.png";
 
 const Home = () => {
   return (
@@ -15,7 +20,7 @@ const Home = () => {
             </NavLink>
           </div>
           <div>
-            <img src="" alt="aknmode" />
+            <img src={aknmode} alt="aknmode" />
             <NavLink target="_blank" to="https://barronakn.github.io/aknmode/">
               Akn mode
             </NavLink>
@@ -23,10 +28,7 @@ const Home = () => {
         </div>
         <div className="p">
           <div>
-            <img
-              src="/dist/assets/Capture d’écran du 2023-04-07 10-11-54.png"
-              alt="boutique"
-            />
+            <img src={boutique} alt="boutique" />
             <NavLink
               target="_blank"
               to="https://barronakn.github.io/boutiquemode/"
@@ -35,10 +37,7 @@ const Home = () => {
             </NavLink>
           </div>
           <div>
-            <img
-              src="/dist/assets/Capture d’écran du 2023-04-07 10-14-15.png"
-              alt="skillhub"
-            />
+            <img src={skillhub} alt="skillhub" />
             <NavLink
               target="_blank"
               to="https://barronakn.github.io/Competence-Center/"
@@ -49,19 +48,13 @@ const Home = () => {
         </div>
         <div className="p">
           <div>
-            <img
-              src="/dist/assets/Capture d’écran du 2023-04-07 10-37-46.png"
-              alt="sigma"
-            />
+            <img src={sigma} alt="sigma" />
             <NavLink target="_blank" to="https://barronakn.github.io/Sigma/">
               Sigma
             </NavLink>
           </div>
           <div>
-            <img
-              src="/dist/assets/Capture d’écran du 2023-04-07 11-29-42.png"
-              alt="fylla"
-            />
+            <img src={fylla} alt="fylla" />
             <NavLink target="_blank" to="https://barronakn.github.io/Fylla/">
               Fylla
             </NavLink>
