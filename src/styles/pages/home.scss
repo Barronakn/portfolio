@@ -1,0 +1,33 @@
+.container {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 100px;
+  width: 800px;
+  padding-top: 50px;
+}
+
+.container .name {
+  color: rgb(181, 219, 228);
+  font-size: 70px;
+}
+
+.container .desc {
+  color: rgb(204, 203, 203);
+  font-size: 30px;
+}
+
+.container img {
+  width: 400px;
+  object-fit: contain;
+}
+
+.container .p {
+  display: flex;
+  column-gap: 50px;
+  margin-top: 50px;
+}
+
+.container a {
+  color: white;
+  font-weight: bold;
+}

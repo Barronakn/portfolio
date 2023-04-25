@@ -1,0 +1,36 @@
+@media screen and (max-width: 915px) {
+  .container {
+    width: 80%;
+  }
+  .container .name {
+    line-height: 70px;
+  }
+
+  .container .desc {
+    line-height: 55px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container .name {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .container .desc {
+    font-size: 17px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container .name {
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .container .desc {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}
