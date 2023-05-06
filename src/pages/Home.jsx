@@ -23,14 +23,43 @@ const Home = () => {
             </NavLink>
           </div>
           <div>
-            <NavLink target="_blank" to="https://barronakn.github.io/aknmode/">
+            <NavLink target="_blank" to="https://aknmode-barronakn.vercel.app/">
               <img src={aknmode} alt="aknmode" />
             </NavLink>
-            <NavLink target="_blank" to="https://barronakn.github.io/aknmode/">
+            <NavLink target="_blank" to="https://aknmode-barronakn.vercel.app/">
               Akn mode
             </NavLink>
           </div>
         </div>
+        <div className="p">
+          <div>
+            <NavLink target="_blank" to="https://barronakn.github.io/Sigma/">
+              <img src={sigma} alt="sigma" />
+            </NavLink>
+            <NavLink target="_blank" to="https://barronakn.github.io/Sigma/">
+              Sigma
+            </NavLink>
+          </div>
+          <div>
+            <NavLink target="_blank" to="https://fylla-1.vercel.app/">
+              <img src={fylla} alt="fylla" />
+            </NavLink>
+            <NavLink target="_blank" to="https://fylla-1.vercel.app/">
+              Fylla
+            </NavLink>
+          </div>
+        </div>
+        <div className="p">
+          <div>
+            <NavLink target="_blank" to="https://barronakn.github.io/Enjoy/">
+              <img src={enjoy} alt="enjoy" />
+            </NavLink>
+            <NavLink target="_blank" to="https://barronakn.github.io/Enjoy/">
+              Enjoy
+            </NavLink>
+          </div>
+        </div>
+
         <div className="p">
           <div>
             <NavLink
@@ -58,34 +87,6 @@ const Home = () => {
               to="https://barronakn.github.io/Competence-Center/"
             >
               Skillhub
-            </NavLink>
-          </div>
-        </div>
-        <div className="p">
-          <div>
-            <NavLink target="_blank" to="https://barronakn.github.io/Sigma/">
-              <img src={sigma} alt="sigma" />
-            </NavLink>
-            <NavLink target="_blank" to="https://barronakn.github.io/Sigma/">
-              Sigma
-            </NavLink>
-          </div>
-          <div>
-            <NavLink target="_blank" to="https://barronakn.github.io/Fylla/">
-              <img src={fylla} alt="fylla" />
-            </NavLink>
-            <NavLink target="_blank" to="https://barronakn.github.io/Fylla/">
-              Fylla
-            </NavLink>
-          </div>
-        </div>
-        <div className="p">
-          <div>
-            <NavLink target="_blank" to="https://barronakn.github.io/Enjoy/">
-              <img src={enjoy} alt="enjoy" />
-            </NavLink>
-            <NavLink target="_blank" to="https://barronakn.github.io/Enjoy/">
-              Enjoy
             </NavLink>
           </div>
         </div>
