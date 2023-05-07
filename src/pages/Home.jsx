@@ -58,8 +58,21 @@ const Home = () => {
               Enjoy
             </NavLink>
           </div>
+          <div>
+            <NavLink
+              target="_blank"
+              to="https://barronakn.github.io/Competence-Center/"
+            >
+              <img src={skillhub} alt="skillhub" />
+            </NavLink>
+            <NavLink
+              target="_blank"
+              to="https://barronakn.github.io/Competence-Center/"
+            >
+              Skillhub
+            </NavLink>
+          </div>
         </div>
-
         <div className="p">
           <div>
             <NavLink
@@ -73,20 +86,6 @@ const Home = () => {
               to="https://barronakn.github.io/boutiquemode/"
             >
               Boutique
-            </NavLink>
-          </div>
-          <div>
-            <NavLink
-              target="_blank"
-              to="https://barronakn.github.io/Competence-Center/"
-            >
-              <img src={skillhub} alt="skillhub" />
-            </NavLink>
-            <NavLink
-              target="_blank"
-              to="https://barronakn.github.io/Competence-Center/"
-            >
-              Skillhub
             </NavLink>
           </div>
         </div>
