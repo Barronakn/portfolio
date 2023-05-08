@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
-import adept from "/src/assets/Capture d’écran du 2023-04-07 08-34-47.png";
-import aknmode from "/src/assets/Capture d’écran du 2023-04-07 10-00-39.png";
-import boutique from "/src/assets/Capture d’écran du 2023-04-07 10-11-54.png";
-import skillhub from "/src/assets/Capture d’écran du 2023-04-07 10-14-15.png";
-import sigma from "/src/assets/Capture d’écran du 2023-04-07 10-37-46.png";
-import fylla from "/src/assets/Capture d’écran du 2023-04-07 11-29-42.png";
-import enjoy from "/src/assets/Capture d’écran du 2023-04-27 23-32-10.png";
+import adept from "/src/assets/adept.png";
+import aknmode from "/src/assets/aknmode.png";
+import boutique from "/src/assets/boutique.png";
+import skillhub from "/src/assets/skillhub.png";
+import sigma from "/src/assets/sigma.png";
+import fylla from "/src/assets/fylla.png";
+import enjoy from "/src/assets/enjoy.png";
 
 const Home = () => {
   return (
